@@ -17,7 +17,24 @@
 
 // -----> Q3
 
-var string = "Pakistan" ;
+// var string = "Pakistan" ;
 // alert(string.indexOf("n"))
-var index =prompt("what alphabet index u want??")
-alert(string.indexOf(index))
+// var index =prompt("what alphabet index u want??")
+// alert(string.indexOf(index))
+
+
+// ----> Question 4
+
+
+// var text = "Hello World ";
+// // alert(text.lastIndexOf("l"));
+// var a = prompt("what index of Hello world")
+// alert(text.lastIndexOf(a))
+
+
+
+
+
+
+
+
