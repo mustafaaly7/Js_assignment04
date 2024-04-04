@@ -32,7 +32,21 @@
 // alert(text.lastIndexOf(a))
 
 
+// ----> Question 5
 
+// var word = "pakistan";
+// alert(word.charAt(3))
+
+
+
+// ----> question 7
+// var city = "Hyderabad" ;
+// alert(city.replace("Hyder","Islam"))
+
+// ------> Question 8
+
+// var message = "Ali and Sami are best friends. They play cricket and football together." ;
+// alert(message.replace(/and/g, "&"))
 
 
 
