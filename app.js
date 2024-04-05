@@ -48,7 +48,16 @@
 // var message = "Ali and Sami are best friends. They play cricket and football together." ;
 // alert(message.replace(/and/g, "&"))
 
+// -----> Question 9 
+// var str = "472";
+// var num = parseInt(str);
+// alert("Value :" + str + "\n" + "type :" + typeof str + " \n" + "Converted Value :" + num + "\n" + "type :" + typeof num);
 
 
+// -----> Question 10
+
+var str = "peanuts" ;
+// var strUpper = "peanuts"
+alert ("lowercase : " + str + "\n" + "upper case : " + str.toUpperCase())
 
 
