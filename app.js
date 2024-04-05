@@ -56,8 +56,29 @@
 
 // -----> Question 10
 
-var str = "peanuts" ;
-// var strUpper = "peanuts"
-alert ("lowercase : " + str + "\n" + "upper case : " + str.toUpperCase())
+// var str = "peanuts" ;
+// // var strUpper = "peanuts"
+// alert ("lowercase : " + str + "\n" + "upper case : " + str.toUpperCase());
+
+
+// -----> Question 11
+// var str = prompt("Enter anything")
+
+
+
+
+
+
+// ----> Question 12
+
+// var num = 35.36;
+// var string = num.toString();
+// // string.replace(".", "");
+// alert(string.replace(".", ""));
+
+// -----> Question13 
+
+var userInput = prompt("Enter Anything ");
+
 
 
