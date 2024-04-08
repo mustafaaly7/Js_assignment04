@@ -78,7 +78,40 @@
 
 // -----> Question13 
 
-var userInput = prompt("Enter Anything ");
+// var userInput = prompt("Enter Anything ");
+// var arr = ["@ " , "!" ,"."];
+// if (userInput == "@","!","."){
+//     alert("Enter Correct Username")
+// }else{
+//     alert("THANKYOU")
+// }
+
+// -----> Q14
+
+
+var userData = prompt("enter your fav").toLowerCase();
+var Arr = ["cake", "apple pie", "cookie", "chips", "patties"]
+var flag = false;
+
+
+for (var i = 1; i <= Arr.length; i++) {
+
+    if (Arr[i]===userData) {
+        alert("yes " + userData + "is Avaliable at index " + i);
+        flag=true;
+        break
+    } 
+
+}
+
+if( flag === false){
+    alert("we Dont Have that :(")
+}
+
+
+
+
+
 
 
 
