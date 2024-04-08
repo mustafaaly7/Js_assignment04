@@ -89,29 +89,82 @@
 // -----> Q14
 
 
-var userData = prompt("enter your fav").toLowerCase();
-var Arr = ["cake", "apple pie", "cookie", "chips", "patties"]
-var flag = false;
+// var userData = prompt("enter your fav").toLowerCase();
+// var Arr = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var flag = false;
 
 
-for (var i = 1; i <= Arr.length; i++) {
+// for (var i = 1; i <= Arr.length; i++) {
 
-    if (Arr[i]===userData) {
-        alert("yes " + userData + "is Avaliable at index " + i);
-        flag=true;
-        break
-    } 
+//     if (Arr[i]===userData) {
+//         alert("yes " + userData + "is Avaliable at index " + i);
+//         flag=true;
+//         break
+//     } 
 
-}
+// }
 
-if( flag === false){
-    alert("we Dont Have that :(")
-}
+// if( flag === false){
+//     alert("we Dont Have that :(")
+// }
+
+// ----> Question15
 
 
+// function validatePassword() {
+//     // Prompt user for password
+//     var password = prompt("Enter your password:");
+
+//     if (password !== null) { // Check if user entered input
+//         var hasAlphabet = false;
+//         var hasNumber = false;
+
+//         // Check password length
+//         if (password.length < 6) {
+//             alert("Password must be at least 6 characters long. Please enter a valid password.");
+//             validatePassword(); // Prompt again for a valid password
+//             return; // Exit function
+//         }
+
+//         // Check if password starts with a number
+//         if (!isNaN(password[0])) {
+//             alert("Password cannot start with a number. Please enter a valid password.");
+//             validatePassword(); // Prompt again for a valid password
+//             return; // Exit function
+//         }
+
+//         // Check if password contains alphabets and numbers
+//         for (var i = 0; i < password.length; i++) {
+//             var charCode = password.charCodeAt(i);
+//             if ((charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122)) {
+//                 hasAlphabet = true;
+//             } else if (charCode >= 48 && charCode <= 57) {
+//                 hasNumber = true;
+//             }
+//         }
+
+//         // Inform user about password requirements
+//         if (hasAlphabet && hasNumber) {
+//             alert("Password is valid.");
+//         } else {
+//             alert("Password must contain alphabets and numbers. Please enter a valid password.");
+//             validatePassword(); // Prompt again for a valid password
+//         }
+//     }
+// }
+
+// // Call the function to prompt for a password and validate it
+// validatePassword()
+
+// -----> Question 16
 
 
-
+// var string = "university of Karachi";
+// var stringArr = string.split(" ");
+// document.write("<h1> Elements of Array </h1>");
+// for( var i = 0 ; i<string.length ; i++){
+//     document.write( "<h1> " + string[i] + "<br />")
+// }
 
 
 
