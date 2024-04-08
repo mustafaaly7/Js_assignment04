@@ -168,3 +168,7 @@
 
 
 
+// -----> Question 17
+var userInput = prompt("Enter Anything");
+var lastChar = userInput.charAt(userInput.length - 1);
+alert("Last alphabet of your data is " + lastChar)
