@@ -169,6 +169,32 @@
 
 
 // -----> Question 17
-var userInput = prompt("Enter Anything");
-var lastChar = userInput.charAt(userInput.length - 1);
-alert("Last alphabet of your data is " + lastChar)
+// var userInput = prompt("Enter Anything");
+// var lastChar = userInput.charAt(userInput.length - 1);
+// alert("Last alphabet of your data is " + lastChar)
+
+
+
+// ----> Question 18
+
+// Define the string
+var sentence = "The quick brown fox jumps over the lazy dog";
+
+// Convert the string to lowercase to make the comparison case-insensitive
+var lowercaseSentence = sentence.toLowerCase();
+
+// Split the string into words
+var words = lowercaseSentence.split(' ');
+console.log(words)
+// Initialize a variable to count the occurrences of the word "the"
+var count = 0;
+
+// Iterate through each word and count occurrences of "the"
+for (var i = 0; i < words.length; i++) {
+    if (words[i] === "the") {
+        count++;
+    }
+}
+
+// Display the count
+alert("Number of occurrences of 'the':" + count);
