@@ -234,3 +234,55 @@
 // }else{
 //     alert(" Invalid Value ! please Enter Negavtive value")
 // }
+
+// -----> Q 3
+
+// var userInput =+ prompt("enter any number to find absolute value");
+// var absolute = Math.abs(userInput);
+// alert("Absolute value of your number is : " +absolute);
+
+
+// ------> Q 4
+
+// var dice = Math.floor(Math.random()*7);
+// alert("random Dice Value: " + dice)
+
+
+// var coin = Math.floor(Math.random()*2);
+// if(coin == 1){
+//     alert("Coin : Head"  );
+// }else{
+//     alert("Coin : tails" );
+
+// }
+
+
+
+
+// -----> Q 5
+
+// var randomNum = Math.floor(Math.random()*101);
+// alert("random Number is : "+randomNum);
+
+
+
+// -----> Question 6
+
+
+// var userInput = prompt("enter Your weight");
+// var weight = parseInt(userInput);
+// var weightRound = Math.round(weight)
+// alert("your weight is : " + weightRound + " Kilograms")
+
+
+
+// -----> Q 7
+
+var userInput = +prompt("Enter Your Lucky number");
+var secretNum = 6;
+var random = Math.floor(Math.random()*11);
+if(random===secretNum){
+    alert("you've won :D")
+}else{
+    alert("try again :(")
+}
