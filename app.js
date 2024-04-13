@@ -210,11 +210,27 @@
 
 // ----> Q1
 
-var userInput =+ prompt("Enter Any Number");
-var round = Math.round(userInput);
-var floor = Math.floor(userInput);
-var ceil = Math.ceil(userInput);
-document.write("<h1> " +  round + "</h1>")
-document.write("<h1> " +  floor + "</h1>")
-document.write("<h1> " + ceil  + "</h1>")
+// var userInput =+ prompt("Enter Any Number");
+// var round = Math.round(userInput);
+// var floor = Math.floor(userInput);
+// var ceil = Math.ceil(userInput);
+// document.write("<h1> " +  round + "</h1>")
+// document.write("<h1> " +  floor + "</h1>")
+// document.write("<h1> " + ceil  + "</h1>")
 
+// -----> Q 2
+
+
+// var userInput =+ prompt("enter Negative decimal value");
+
+// if(userInput<0){
+//     var round = Math.round(userInput);
+// var floor = Math.floor(userInput);
+// var ceil =Math.ceil(userInput);
+// alert(
+//     "number :" + userInput +"\n" + "round :" + round +"\n" +"floor :" + floor + "\n" +"ceil :" +ceil
+// )
+
+// }else{
+//     alert(" Invalid Value ! please Enter Negavtive value")
+// }
