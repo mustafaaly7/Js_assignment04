@@ -211,3 +211,10 @@
 // ----> Q1
 
 var userInput =+ prompt("Enter Any Number");
+var round = Math.round(userInput);
+var floor = Math.floor(userInput);
+var ceil = Math.ceil(userInput);
+document.write("<h1> " +  round + "</h1>")
+document.write("<h1> " +  floor + "</h1>")
+document.write("<h1> " + ceil  + "</h1>")
+
